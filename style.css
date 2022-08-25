@@ -1,0 +1,23 @@
+/* mobil */
+@media (orientation: portrait) and (min-width: 375px) {
+  .indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Tablet */
+
+@media (orientation: portrait) and (min-width: 810px) {
+  .indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/* PC */
+@media (orientation: portrait) and (min-width: 1200px) {
+  .indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
